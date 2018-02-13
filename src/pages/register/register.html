@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Face Recognition App</title>
+	<link href="https://fonts.googleapis.com/css?family=Hind:600|Poppins:400,700" rel="stylesheet" />
+</head>
+<body>
+	<div class="title">
+		Registration Form
+	</div>
+<div class="formWrapper">
+  <div class="formBox">
+    <input id="fullName" type="text" placeholder="Full Name">
+  </div>
+  <div class="formBox">
+    <input id="email" type="email" placeholder="Email">
+  </div>
+  <div class="formBox">
+    <input id="school" type="text" placeholder="School">
+  </div>
+  <div class="formBox">
+    <input id="studentPhone" type="phone" placeholder="Personal Phone Number">
+  </div>
+  <div class="formBox">
+    <input id="parentPhone" type="phone" placeholder="Parent Phone Number">
+  </div>
+<div class="submit">
+  <button [navPush]="cameraRegister" id="submitInfo">Submit</button>
+</div>
+</div>
+</body>
+</html>
